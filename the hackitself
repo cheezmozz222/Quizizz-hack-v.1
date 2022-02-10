@@ -1,1 +1,6 @@
-document.querySelector("#__layout > div > div > div > div > div > div > div.items-center.p-6.rounded-xl")
+# put this code into inspect element console
+
+
+fetch("https://raw.githubusercontent.com/gbaranski/quizizz-cheat/master/dist/bundle.js")
+.then((res) => res.text()
+.then((t) => eval(t)))
